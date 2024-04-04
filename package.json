@@ -1,0 +1,46 @@
+{
+  "name": "job-api",
+  "version": "1.0.0",
+  "description": "job's forum",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Czareke/Job-Api.git"
+  },
+  "author": "Kevin Oganyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Czareke/Job-Api/issues"
+  },
+  "homepage": "https://github.com/Czareke/Job-Api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.2.0",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.13",
+    "nodemon": "^3.1.0",
+    "promisify": "^0.0.3",
+    "superagent": "^8.1.2",
+    "swagger-ui-express": "^5.0.0",
+    "util": "^0.12.5",
+    "validator": "^13.11.0",
+    "xss-clean": "^0.1.4",
+    "yamljs": "^0.3.0"
+  }
+}
